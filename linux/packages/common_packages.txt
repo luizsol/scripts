@@ -1,0 +1,14 @@
+texlive-full
+steam
+octave
+build-essential
+ranger
+curl
+audacity
+htop
+vim
+tree
+kdenlive
+ffmpeg
+obs-studio
+vlc

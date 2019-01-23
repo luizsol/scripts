@@ -1,0 +1,56 @@
+{
+    "cSpell.enabled": true,
+    "cSpell.enabledLanguageIds": [
+        "latex",
+        "markdown",
+    ],
+    "cSpell.language": "pt_BR,en",
+    "window.zoomLevel": 0,
+    "workbench.colorTheme": "Monokai",
+    "files.trimTrailingWhitespace": true,
+    "editor.rulers": [
+        80
+    ],
+    "editor.renderWhitespace": "all",
+    // "sublimeTextKeymap.promptV3Features": true,
+    "editor.multiCursorModifier": "ctrlCmd",
+    "editor.snippetSuggestions": "top",
+    "editor.formatOnPaste": true,
+    "files.associations": {
+        "*.js": "javascriptreact"
+    },
+    "workbench.iconTheme": "material-icon-theme",
+    "editor.fontSize": 12,
+    "editor.tabSize": 4,
+    "files.insertFinalNewline": true,
+    "[javascriptreact]": {
+        "editor.tabSize": 2,
+    },
+    "[dockerfile]": {
+        "editor.tabSize": 4,
+        "editor.insertSpaces": false,
+    },
+    "latex-workshop.view.pdf.viewer": "tab",
+    "[latex]": {
+        "editor.wordWrap": "on",
+    },
+    "[markdown]": {
+        "editor.tabSize": 4,
+        "editor.rulers": [],
+        "editor.wordWrap": "on",
+    },
+    "[rmd]": {
+        "editor.tabSize": 2,
+        "editor.rulers": [],
+        "editor.wordWrap": "on",
+    },
+    "python.pythonPath": "/home/luiz/anaconda3/bin/python",
+    "[python]": {
+        "editor.rulers": [
+            79,
+            72,
+        ],
+    },
+    "terminal.integrated.fontSize": 13,
+    "matlab.mlintpath": "/usr/local/MATLAB/R2016b/bin/glnxa64/mlint",
+}
