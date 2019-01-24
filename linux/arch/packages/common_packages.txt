@@ -1,0 +1,15 @@
+texlive-most
+texlive-lang
+biber
+steam
+octave
+ranger
+curl
+audacity
+htop
+vim
+tree
+kdenlive
+ffmpeg
+obs-studio
+vlc
