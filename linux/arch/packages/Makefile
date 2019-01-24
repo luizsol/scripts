@@ -2,6 +2,7 @@
 
 common:
 	@echo "Installing common packages..."
+	@sudo pacman -Syu
 	@./install_pacman_packages.sh
 
 anaconda:
