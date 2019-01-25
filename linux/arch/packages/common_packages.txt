@@ -1,3 +1,5 @@
+filezilla
+libreoffice-fresh
 texlive-most
 texlive-lang
 biber
