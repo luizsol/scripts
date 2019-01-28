@@ -1,3 +1,4 @@
-curl https://repo.continuum.io/archive/Anaconda3-2018.12-Linux-x86_64.sh -o anaconda.sh && /
-chmod +x anaconda.sh && /
-./anaconda.sh
+git clone https://aur.archlinux.org/anaconda.git && \
+cd anaconda && \
+makepkg -s && \
+sudo pacman -U anaconda*.pkg.tar.xz
