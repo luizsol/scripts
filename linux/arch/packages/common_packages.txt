@@ -6,6 +6,7 @@ biber
 steam
 octave
 ranger
+clojure
 curl
 audacity
 htop
@@ -15,3 +16,4 @@ kdenlive
 ffmpeg
 obs-studio
 vlc
+entr
