@@ -1,4 +1,5 @@
 filezilla
+dos2unix
 libreoffice-fresh
 texlive-most
 texlive-lang
