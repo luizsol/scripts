@@ -1,0 +1,2 @@
+cd leiningen && \
+makepkg -s

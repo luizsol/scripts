@@ -1,0 +1,1 @@
+cd anaconda && makepkg -s

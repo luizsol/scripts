@@ -1,4 +1,1 @@
-git clone https://aur.archlinux.org/anaconda.git && \
-cd anaconda && \
-makepkg -s && \
-sudo pacman -U anaconda*.pkg.tar.xz
+cd anaconda && sudo pacman -U anaconda*.pkg.tar.xz

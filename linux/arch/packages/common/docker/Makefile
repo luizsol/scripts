@@ -4,8 +4,4 @@ config:
 	@echo "Configuring Docker..."
 	@./configure.sh
 
-install:
-	@echo "Installing Docker..."
-	@./install.sh
-
-all: | install config
+all: | config

@@ -1,0 +1,2 @@
+cd spotify && \
+makepkg -s

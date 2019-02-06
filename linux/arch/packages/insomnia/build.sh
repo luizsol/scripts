@@ -1,0 +1,2 @@
+cd insomnia && \
+makepkg -s

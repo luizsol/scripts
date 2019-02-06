@@ -1,11 +1,24 @@
 .DEFAULT_GOAL := all
 
-config:
-	@echo "Configuring Anaconda..."
-	@./configure.sh
+
+fetch:
+	@echo "Fetcing Anaconda..."
+	@./fetch.sh
+
+build:
+	@echo "Building Anaconda..."
+	@./build.sh
 
 install:
 	@echo "Installing Anaconda..."
 	@./install.sh
 
-all: | install config
+config:
+	@echo "Configuring Anaconda..."
+	@./config.sh
+
+clean:
+	@echo "Removing Anaconda files..."
+	@rm -rf anaconda
+
+all: | fetch build install config

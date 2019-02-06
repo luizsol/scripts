@@ -1,47 +1,19 @@
 .DEFAULT_GOAL := all
 
-common:
-	@echo "Installing common packages..."
-	@sudo pacman -Syu
-	@./install_pacman_packages.sh
+fetch:
+	@find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "cd \"{}\" && make fetch" \;
 
-anaconda:
-	@cd anaconda; make
+build:
+	@find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "cd \"{}\" && make build" \;
 
-docker:
-	@cd docker; make
+install:
+	@find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "cd \"{}\" && make install" \;
 
-franz:
-	@cd franz; make
+config:
+	@find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "cd \"{}\" && make config" \;
 
-google-chrome:
-	@cd google-chrome; make
+clean:
+	@find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "cd \"{}\" && make clean" \;
 
-insomnia:
-	@cd insomnia; make
-
-node:
-	@cd node; make
-
-redshift:
-	@cd redshift; make
-
-rstudio:
-	@cd rstudio; make
-
-rust:
-	@cd rust; make
-
-spotify:
-	@cd spotify; make
-
-stremio:
-	@cd stremio; make
-
-tilix:
-	@cd tilix; make
-
-vscode:
-	@cd vscode; make
-
-all: | common anaconda docker franz google-chrome insomnia node redshift rstudio rust spotify stremio tilix vscode
+all:
+	@find . -maxdepth 1 -mindepth 1 -type d -exec sh -c "cd \"{}\" && make" \;

@@ -4,8 +4,4 @@ config:
 	@echo "Configuring Redshift..."
 	@./configure.sh
 
-install:
-	@echo "Installing Redshift..."
-	@./install.sh
-
-all: | install config
+all: | config
