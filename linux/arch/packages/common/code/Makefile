@@ -2,6 +2,6 @@
 
 config:
 	@echo "Configuring Visual Studio Code..."
-	@./configure.sh
+	@./config.sh
 
 all: | config

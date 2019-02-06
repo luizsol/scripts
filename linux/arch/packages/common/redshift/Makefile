@@ -2,6 +2,6 @@
 
 config:
 	@echo "Configuring Redshift..."
-	@./configure.sh
+	@./config.sh
 
 all: | config

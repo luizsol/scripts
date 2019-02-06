@@ -44,7 +44,7 @@
         "editor.rulers": [],
         "editor.wordWrap": "on",
     },
-    "python.pythonPath": "/home/luiz/anaconda3/bin/python",
+    "python.pythonPath": "/opt/anaconda/bin/python",
     "[python]": {
         "editor.rulers": [
             79,

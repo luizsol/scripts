@@ -2,6 +2,6 @@
 
 config:
 	@echo "Configuring Docker..."
-	@./configure.sh
+	@./config.sh
 
 all: | config
